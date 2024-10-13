@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Student Family details"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Zeba Sabih"
+        android:textSize="20dp"
+        android:textColor="#FBFFFFFF"
+        android:background="#C50E88"
+        android:textAlignment="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="5dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Father's Name: Mohd Sabihuddin"
+        android:textSize="20dp"
+        android:textColor="#FBFFFFFF"
+       android:textAlignment="textStart"
+        android:padding="20dp"
+        android:background="#C50E88"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="5dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mother's Name: Zahida khatoon"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+        android:textColor="#FBFFFFFF"
+        android:background="#E70F91"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="5dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Father's Mobile:9492890323"
+        android:textSize="25dp"
+        android:textColor="#FBFFFFFF"
+        android:textAlignment="center"
+        android:background="#F466B1"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="5dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mother's MOb:8748392903"
+        android:textSize="24dp"
+        android:textColor="#FBFFFFFF"
+        android:textAlignment="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E70F91"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="5dp"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Father's Occupation: Teacher"
+        android:textSize="23dp"
+        android:textColor="#FBFFFFFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:background="#C50E88"
+        android:textAlignment="center"
+        android:paddingBottom="5dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOther's Occupation:HouseWife"
+        android:textSize="22dp"
+        android:textColor="#FBFFFFFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#BC028A"
+        android:textAlignment="center"
+        android:paddingBottom="5dp"
+        >
+    </TextView>
+
+
+</LinearLayout>
